@@ -31,6 +31,8 @@
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -47,8 +49,6 @@
 }
 
 .header__main-illustration {
-  background-image: url(../images/header-image.png);
-  background-size: cover;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -153,11 +153,14 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
   display: flex;
   width: 1100px;
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 1;
+  list-style: none;
 }
 
 .table__cell {
@@ -166,13 +169,14 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -184,7 +188,7 @@
   background-position: left bottom;
   background-size: 867px 637px;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -231,7 +235,11 @@
   position: relative;
 }
 
-.section-title_theme_dark, .section-subtitle_theme_dark {
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
   color: white;
 }
 
@@ -258,6 +266,7 @@
   padding: 60px 0 40px;
   justify-content: center;
   background-color: #1f1f1f;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -292,6 +301,7 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -308,7 +318,6 @@
 }
 
 .footer__column-link {
-  margin-bottom: 5px;
   color: white;
   text-decoration: none;
 }
