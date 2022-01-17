@@ -1,0 +1,7 @@
+.video {
+  padding: 100px 0 0;
+  margin-bottom: -60px; /* Распологаем видео поверх границы двух блоков */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
