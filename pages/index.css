@@ -65,3 +65,12 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__button-container/form__button-container.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_function/form__button_function_reset.css);
+@import url(../blocks/form/__button/_function/form__button_function_submit.css);
+@import url(../blocks/form/__input-text/form__input-text.css);
+@import url(../blocks/form/__input-text/_type/form__input-text_type_message.css);
+@import url(../blocks/form/__text-container/form__text-container.css);

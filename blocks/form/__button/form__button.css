@@ -1,0 +1,24 @@
+.form__button {
+  padding: 15px;
+  width: 50%;
+  color: white;
+  letter-spacing: 1.5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform .2s linear;
+}
+
+.form__button:hover {
+  border: 1px solid white;
+  transform: scale(1.1);
+  transition: transform .2s linear;
+}
+
+.form__button:focus {
+  transform: scale(1.1);
+  border: 2px solid white;
+  outline: none;
+  transition: transform .2s linear;
+
+}
